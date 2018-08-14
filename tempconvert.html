@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="tempconvert.css">
+</head>
+<body>
+<div class="header"><h2>Temperature Converter</h2></div>
+<form>
+
+<div class="main">
+	<div class="input-area">
+		<label class="fahrtext" for="fahrenheit">Fahrenheit</label>
+		<input type="text" id="input-fahrenheit" onkeyup="convert('F')">
+	</div>
+	<div class="input-area">
+		<label class="celtext" for="celcius">Celcius</label>
+		<input type="text" id="input-celcius" onkeyup="convert('C')"">
+	</div>
+</div>
+</form>
+
+<footer>Made by Zak Turner</footer>
+<script type="text/javascript" src="tempconvert.js"></script>
+
+</body>
+</html>

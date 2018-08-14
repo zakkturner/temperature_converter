@@ -1,0 +1,45 @@
+
+
+.header{
+	text-align: center;
+	font-size: 25px;
+
+}
+
+h2{
+	color: #696969;
+	margin-bottom: 75px;
+}
+
+.main{
+	text-align: center;
+}
+
+.input-area{
+	
+	display: inline-block;
+	font-size: 25px;
+
+}
+
+
+div input{
+	display: block;
+	border-radius: 30px;
+	height: 40px;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 700;
+	width: 100px;
+}
+
+div label{
+	margin-right: 20px;
+}
+
+footer{
+	margin-top: 50px;
+	text-align: center;
+}
